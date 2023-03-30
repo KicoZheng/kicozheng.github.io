@@ -1,0 +1,148 @@
+.header {
+  display: flex;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.logo img {
+  height: 40px;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-box form {
+  position: relative;
+  padding-left: 2.5em;
+}
+
+.search-box input[type="text"] {
+  background-color: #f7f7f7;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  width: 200px;
+}
+
+.search-box input[type="text"]:focus {
+  width: 260px;
+}
+
+.search-box button {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.searchsearch {
+  color: rgb(26, 26, 25);
+  font-size: 18px;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position:center bottom;
+    background-attachment: fixed;
+}
+.wrapper {
+    background-color: #f1f1f1;
+    padding: 20px;
+    opacity: 0.95; /*设置透明度*/
+  }  
+.nav {
+    display: flex;
+    justify-content: space-between; /*导航项间距相等*/
+    background-color: rgba(158, 97, 6, 0.801);
+    padding: 10px;
+  }
+  .nav-item a {
+    color: rgba(249, 246, 246, 0.968);
+    text-decoration: none;
+  }  
+  .nav-item {
+    padding: 10px;
+    cursor: pointer;
+  }
+  .nav-item:first-child {
+    padding-left: 80px;
+  }
+  .nav-item:last-child{
+    padding-right: 60px;
+  }
+  
+  .nav-item:hover {
+    background-color: rgba(235, 230, 230, 0);
+  }
+  
+  .container {
+    margin-top: 160px; /* 调整整个网页向下移动 160 像素 */
+  }
+
+  p {
+    padding: 0 20px; /* 顶部/底部：0；左/右：20px */
+  }
+
+.img1 {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin: 0 0 0 20px; /* 20px 是左边的边距大小 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
+
+.img2 {
+    display: block;
+    width: 28%;
+    height: auto;
+    margin: -270px 0 0 432px; /* 上、右、下、左 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
+
+.img3 {
+    display: block;
+    width: 28%;
+    height: auto;
+    margin: -270px 0 0 820px; /* 上、右、下、左 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
+
+.img4 {
+    display: block;
+    width: 26%;
+    height: auto;
+    margin: 80px 0 0 40px; /* 上、右、下、左 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
+
+.img5 {
+    display: block;
+    width: 27%;
+    height: auto;
+    margin: -305px 0 0 433px; /* 上、右、下、左 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
+
+.img6 {
+    display: block;
+    width: 27%;
+    height: auto;
+    margin: -305px 0 0 830px; /* 上、右、下、左 */
+    padding: 10px; /* 添加内边距 */
+    box-shadow: 0 0 10px rgb(85, 84, 84); /* 添加阴影效果 */
+  }
